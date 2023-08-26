@@ -15,3 +15,4 @@ ReactDOM.render(
 );
 
 // Что вернёт выражение: typeof useState?
+//Ответ "function"

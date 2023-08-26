@@ -6,12 +6,13 @@ function UsersList() {
     const [users, setUsers] = useState<Array<string>>(["Bob", "Alex", "Ann"])
 
     return (
-        <p>Тут будет список пользователей!</p>
+        <p>Тут будет список пользователей</p>
     )
 }
 
 ReactDOM.render(
-    <UsersList />, document.getElementById('root')
+    <UsersList/>, document.getElementById('root')
 );
+// Что вернёт выражение: Array.isArray(users)?  ответ true
 
-// Что вернёт выражение: typeof useState?
+
