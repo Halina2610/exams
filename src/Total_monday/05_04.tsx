@@ -8,7 +8,7 @@ function User() {
         <div>
             <p>{userName}</p>
             <input
-                value={userName}
+                value={userName} //xxx
                 onChange={(e) => setUserName(e.currentTarget.value)}
             />
         </div>
@@ -18,4 +18,4 @@ function User() {
 ReactDOM.render(
     <User/>, document.getElementById('root')
 );
-// Что надо написать вместо ххх, чтобы инпут был контролируемым? userName неверно, value={userName} верно
+// Что надо написать вместо ххх, чтобы инпут был контролируемым? value={userName}
